@@ -100,16 +100,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC<pmcid>/
 - import 'bootstrap/dist/css/bootstrap.min.css';
 - Use the component:
 
-import Pmcsearch from './Pmcsearch';
-
-function App() {
-return (
-<div>
-<h2 className="text-center mt-4">Search PubMed Central</h2>
-<Pmcsearch />
-</div>
-);
-}
+### 📦 Usage Import and use the `Pmcsearch` component in your app: ```jsx import Pmcsearch from './Pmcsearch'; function App() { return ( <div> <h2 className="text-center mt-4">Search PubMed Central</h2> <Pmcsearch /> </div> ); } ```
 
 ## 📁 File Structure
 
