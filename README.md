@@ -90,17 +90,18 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC<pmcid>/
 
 - Uses useRef to determine if the click is within the component.
 
-### 📦 Installation & Usage
+## 📦 Installation & Running the App
 
-- Make sure you have React and React Bootstrap installed:
+1. **Clone the repository**:
 
-- npm install react-bootstrap bootstrap
-- Import Bootstrap CSS (in your index.js or App.js):
+   ```bash
+   git clone https://github.com/your-username/pmc-search-app.git
+   cd pmc-search-app
+2. **Install dependencies**:
+    npm install
+3. **Run the app**:
+    npm start
 
-- import 'bootstrap/dist/css/bootstrap.min.css';
-- Use the component:
-
-### 📦 Usage Import and use the `Pmcsearch` component in your app: ```jsx import Pmcsearch from './Pmcsearch'; function App() { return ( <div> <h2 className="text-center mt-4">Search PubMed Central</h2> <Pmcsearch /> </div> ); } ```
 
 ## 📁 File Structure
 
